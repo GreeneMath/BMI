@@ -1,0 +1,45 @@
+.form-field{
+    margin:20px 0;
+    display:flex;
+}
+label{
+    padding-right:10px;
+    
+}
+input{
+    width:250px;
+    padding:5px;
+    margin:auto;
+}
+p{
+    font-size:20px;
+    font-weight:bold;
+}
+.bmi-wrapper{
+    display:flex;
+}
+.bmi-person-1{
+    padding-right:25px;
+}
+.button-submit{
+    padding:10px;
+    background-color:teal;
+    color:white;
+    font-weight:bold;
+    border:2px rgb(115, 115, 115) solid;
+}
+.button-submit:hover{
+    cursor:pointer;
+    background-color:firebrick;
+}
+.results{
+    display:none;
+}
+@media(max-width:600px){
+    .bmi-wrapper{
+        flex-direction:column;
+    }
+    .bmi-person-1{
+        padding-right:0;
+    }
+}
